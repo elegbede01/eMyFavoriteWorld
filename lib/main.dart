@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'accueil.dart';
+import 'package:emyfovoriteworld/widgets/endroits_list.dart';
 
 void main() {
   runApp(const MonApplication());
@@ -26,7 +26,8 @@ class MonApplication extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: MapremierePage(),
+
+      home: EndroitsInterface(),
     );
   }
 }
